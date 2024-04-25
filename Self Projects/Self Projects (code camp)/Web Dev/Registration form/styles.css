@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin: 50px;
+}
+p {
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+fieldset {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+form{
+    /* margin-left: 500px; */
+    margin: 75px 550px 0px 500px;
+}
+body {
+    background-color: rgb(0, 0, 47);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #1b1b32; */
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+::placeholder{
+    text-align: center;
+    color: grey;
+}
+input,
+textarea,
+select {
+  /* margin: 10px 0 0 0; */
+  width: 100%;
+  min-height: 1em;
+  background-color: rgb(0, 0, 66);
+}
+#doc{
+    margin-top: 10px;
+}
+.inline{
+    display: inline;
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+}
+  .inline {
+    width: unset;
+    /* margin: 0 0.5em 0 0; */
+    /* vertical-align: middle; */
+}  
+#referrer{
+    color: grey;
+}

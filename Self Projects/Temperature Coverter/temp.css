@@ -1,0 +1,65 @@
+form{
+    text-align: center;
+    margin-top: 332px;
+    font-size: 40px;
+}
+form input{
+    font-size: 19px;
+}
+body {
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px 65px;
+    background: url('fb.jpg')no-repeat center;
+    background-size: cover;
+    height: 80vh;
+    margin-top: 0%;
+}
+header h1{
+    font-size: 50px;
+}
+button{
+    background-color: #128C7E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+.button:hover {
+    background-color: black;
+}
+.button {
+    background-color: #075e54;
+    /* background-color: green; */
+    color: #fff;
+    transition: background-color 1s;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.button:focus,
+.button:active {
+    background-color: black;
+    transition: none;
+}
+.comversion{
+    font-size: 50px;
+
+}
+#result{
+    font-size: 25px;
+}
+#conversiontype{
+    font-size: x-large;
+    background: transparent;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    box-shadow: 4px 4px 4px 4px #998989,
+    4px 4px 4px 4px #998989;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}

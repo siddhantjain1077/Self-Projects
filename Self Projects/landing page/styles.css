@@ -1,0 +1,81 @@
+.header-nav img {
+    height: 5%;
+    width: 7.5%;
+    /* size: 50%; */
+    margin: 5px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    /*padding: 80px 60px;*/
+}
+
+.download-btn {
+    background-color: green;
+    color: #fff;
+    transition: background-color 1s;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  
+  .download-btn:hover {
+    background-color: black;
+  }
+  
+  .download-btn:focus,
+  .download-btn:active {
+    background-color: black;
+    transition: none;
+  }
+
+.img-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background\ imgae.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0.5;
+    margin-top: 35px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.msg p{
+    color: aliceblue;
+    font-size: 80px;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: -0.04cm;
+    line-height: 1;
+    margin: 500px 0 0 160px;
+    padding: 0;
+}
+.w-whatsapp{
+  margin-left: 100px;
+}
+.download-btn-2 {
+    background-color: green;
+    color: #fff;
+    transition: background-color 1s;
+    margin: 500px 0 0 160px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  
+  .download-btn-2:hover {
+    background-color: black;
+  }
+  
+  .download-btn-2:focus,
+  .download-btn-2:active {
+    background-color: black;
+    transition: none;
+  }
